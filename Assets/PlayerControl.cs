@@ -15,16 +15,16 @@ public class PlayerControl : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetKey("w")){
-			transform.Translate (Vector3.up*sped);
+			transform.Translate (Vector3.up*20*sped);
 		}
 		if (Input.GetKey("s")){
-			transform.Translate (Vector3.down*sped);
+			transform.Translate (Vector3.down*10*sped);
 		}
 		if (Input.GetKey("a")){
-			transform.Translate (Vector3.left*sped);
+			transform.Translate (Vector3.left*30*sped);
 		}
 		if (Input.GetKey("d")){
-			transform.Translate (Vector3.right*sped);
+			transform.Translate (Vector3.right*10*sped);
 		}
 
 
