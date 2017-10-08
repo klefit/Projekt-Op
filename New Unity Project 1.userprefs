@@ -1,9 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\PlayerControl.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\kolizja.cs">
     <Files>
-      <File FileName="Assets\PlayerControl.cs" Line="27" Column="41" />
-      <File FileName="Assets\obrot.cs" Line="1" Column="1" />
+      <File FileName="Assets\PlayerControl.cs" Line="27" Column="38" />
+      <File FileName="Assets\obrot.cs" Line="24" Column="40" />
+      <File FileName="Assets\strzal.cs" Line="25" Column="4" />
+      <File FileName="Assets\kolizja.cs" Line="7" Column="41" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
