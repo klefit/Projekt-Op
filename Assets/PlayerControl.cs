@@ -14,11 +14,12 @@ public class PlayerControl : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        
 		if (Input.GetKey("w")){
-			transform.Translate (Vector3.up*speed);
+			transform.Translate (Vector3.forward*speed);
 		}
 		if (Input.GetKey("s")){
-			transform.Translate (Vector3.down*speed);
+			transform.Translate (Vector3.back*speed);
 		}
 		if (Input.GetKey("a")){
 			transform.Translate (Vector3.left*speed);
